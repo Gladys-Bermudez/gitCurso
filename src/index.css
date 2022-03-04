@@ -9,3 +9,23 @@ input{
   font-size: 1.2rem;
   color:aqua;
 }
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .card{
+   align-content: center;
+   border:1px solid gray;
+   border-radius: 7px;
+   overflow: hidden;
+   margin-bottom: 7px;
+   margin-right: 7px;
+ }
+ .card p{
+   padding: 5px;
+   text-align: center;
+ }
+ .card img{
+   max-height: 170px;
+ }
